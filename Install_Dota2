@@ -4,7 +4,15 @@
 2.ia32-libs安装方法，
 	sudo apt-get install g++-multilib
 	sudo apt-get install ia32-libs
-  此时，若重启系统，可能会进入不了图形界面，所以赶紧升级14.04版本吧。
-  升级后不要删除系统中用不到的文件，这样可以保证ia32-libs安装的库不被
-  删除掉。
-3.
+  此时，若重启系统，非常可能会进入不了图形界面（我没有勇气去得到精确的答
+  案），所以赶紧升级14.04版本吧。升级后不要删除系统中用不到的文件，这样
+  可以保证ia32-libs安装的库不被删除掉。
+3.第二步，安装显卡驱动
+  双显卡，intel和NAIDIA显卡驱动
+  Ubuntu12和14，命令是
+	sudo apt-get install nvidia-340 nvidia-settings nvidia-prime
+  跟Windows一样，安装显卡驱动需要重启才会生效。
+4.第三步，安装steam平台
+  steam官网链接，直接下载安装，此时肯定会有好多问题，下面会对可能出现的
+  问题的表明解决方案。
+
