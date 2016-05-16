@@ -1,0 +1,10 @@
+64位ubuntu，安装dota2
+1.从ubuntu12.04STL系统开始安装，第一步，在安装steam之前，必须安装
+  ia32-libs
+2.ia32-libs安装方法，
+	sudo apt-get install g++-multilib
+	sudo apt-get install ia32-libs
+  此时，若重启系统，可能会进入不了图形界面，所以赶紧升级14.04版本吧。
+  升级后不要删除系统中用不到的文件，这样可以保证ia32-libs安装的库不被
+  删除掉。
+3.
